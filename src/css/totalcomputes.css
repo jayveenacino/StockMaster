@@ -1,0 +1,170 @@
+.fast-total-container {
+    padding: 2rem;
+    background-color: #1f1f1f;
+    min-height: auto;
+    color: #f9fafb;
+
+}
+
+.fast-total-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.fast-total-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f9fafb;
+}
+
+.fast-total-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.fast-total-table th.action-header {
+    width: 64px;
+    text-align: center;
+}
+
+.fast-total-table td.action-cell {
+    width: 64px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #ff6b6b;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    transition: transform .12s ease, color .12s ease;
+}
+
+.delete-btn:hover {
+    color: #ff3b3b;
+    transform: scale(1.05);
+}
+
+
+.export-btn {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.export-btn:hover {
+    background-color: #16a34a;
+}
+
+.fast-total-card {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    overflow-x: auto;
+}
+
+.fast-total-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e5e7eb;
+}
+
+.fast-total-table th {
+    background-color: #3f3f3f;
+    padding: 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.fast-total-table td {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.fast-total-table input {
+    width: 100%;
+    padding: 6px 8px;
+    background-color: #1f1f1f;
+    border: 1px solid #555;
+    color: #f9fafb;
+    border-radius: 6px;
+}
+
+.fast-total-table input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #111;
+}
+
+.fast-total-buttons {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.fast-total-buttons button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.add {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.add:hover {
+    background-color: #2563eb;
+}
+
+.compute {
+    background-color: #10b981;
+    color: white;
+}
+
+.compute:hover {
+    background-color: #059669;
+}
+
+.clear {
+    background-color: #9ca3af;
+    color: white;
+}
+
+.clear:hover {
+    background-color: #6b7280;
+}
+
+.fast-total-total {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.fast-total-total span {
+    color: #22c55e;
+    font-weight: 700;
+}
